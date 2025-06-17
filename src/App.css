@@ -121,7 +121,6 @@
   }
 
   .hamburger-menu {
-    display: flex;
     position: absolute;
     top: 0px;
     background-color: red;
