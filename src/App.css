@@ -50,6 +50,7 @@
   justify-content: center;
   width: 100%;
   padding: 15px 0;
+  padding-block: 35px;
 }
 
 .navigation {
@@ -78,14 +79,14 @@
 .navigation ul li {
   margin: 0 15px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 100%;
   letter-spacing: 3px;
 }
 
 .navigation ul li img {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   margin-right: 10px;
 }
 
@@ -113,15 +114,6 @@
   display: none;
 }
 
-/* .icon-menu, .nav-icons {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  transition: all 0.3s;
-} */
-
 @media (max-width: 768px) {
   .navigation .nav-menu,
   .navigation .nav-icons {
@@ -140,47 +132,6 @@
     align-items: center;
   }
 
-  /* .nav-menu ul li {
-    list-style: none;
-    background-color: green;
-    padding: 0;
-    margin: 0;
-  } */
-
-  /* .nav-icons ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  } */
-
-  /* .nav-menu ul li {
-    background-color: yellow;
-    list-style: none;
-    font-weight: 600;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .nav-icons ul li {
-    background-color: green;
-    list-style: none;
-    font-weight: 600;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  } */
-
-/* .hamburger-menu ul li {
-  margin: 0 15px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 3px;
-} */
-
   .hamburger-menu ul li img {
     height: 40px;
     width: 40px;
@@ -196,19 +147,9 @@
     color: white;
   }
 
-  
-/* .show {
-    display: none;
-  }
-
- .not-show {
-    display: none;
-  } */
-
   .nav-menu li,
   .nav-icons li {
     list-style: none;
-    /* background-color: green; */
     padding: 10px;
     margin: 10px;
     list-style: none;
@@ -226,17 +167,6 @@
   .hamburger {
     display: flex;
   }
-
-  /* .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: red;
-    margin: 50px;
-  } */
-
-  /* .navigation ul li{
-    display: none;
-  } */
 }
 
 .card {
@@ -248,9 +178,6 @@
   background-color: green;
   margin: 50px;
   height: 450px;
-  /* width: 50%; */
-  /* width: 600px; */
-  /* border: 1px solid; */
 }
 
 .card p {
