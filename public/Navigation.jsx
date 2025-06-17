@@ -14,7 +14,7 @@ function Navigation() {
   return (
     <div className='wrapper'>
       <nav className="navigation">
-        <img src="./src/assets/logo.png" alt="" />
+        <img src="/logo.png" alt="logo perusahaan" />
         <div className="hamburger" onClick={handleHamburgerClick}>
           <span>&#9776;</span>
         </div>
@@ -27,9 +27,9 @@ function Navigation() {
         </ul>
         <ul className='nav-icons'>
           <li><img src="/account.png" alt="account" /></li>
-          <li><img src="./src/assets/search.png" alt="account" /></li>
-          <li><img src="./src/assets/like.png" alt="account" /></li>
-          <li><img src="./src/assets/shop.png" alt="account" /></li>
+          <li><img src="/search.png" alt="seacrh" /></li>
+          <li><img src="/like.png" alt="like" /></li>
+          <li><img src="/shop.png" alt="shop" /></li>
         </ul>
       </nav>
     </div>

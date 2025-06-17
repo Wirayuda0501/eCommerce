@@ -1,5 +1,5 @@
 import Browse from "../../Browse"
-import Navigation from "../../Navigation"
+import Navigation from "../../../public/Navigation"
 import { Link } from 'react-router-dom';
 
 function Index() {
