@@ -159,6 +159,11 @@
     padding: 10px;
   }
 
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+  }
+
   .nav-icons li {
     display: flex;
   }
