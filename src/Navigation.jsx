@@ -26,7 +26,7 @@ function Navigation() {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
         <ul className='nav-icons'>
-          <li><img src="account.png" alt="account" /></li>
+          <li><img src="/account.png" alt="account" /></li>
           <li><img src="./src/assets/search.png" alt="account" /></li>
           <li><img src="./src/assets/like.png" alt="account" /></li>
           <li><img src="./src/assets/shop.png" alt="account" /></li>
